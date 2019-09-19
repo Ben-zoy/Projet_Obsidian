@@ -1,0 +1,70 @@
+body {	background-image: none;
+
+}
+
+nav ul { 	display: flex;
+			align-items: center;
+			justify-content: space-around;
+			list-style: none;
+			height: 120px;
+			padding-right: 20%;
+			padding-left: 20%;
+ }
+
+ a:link, a:visited { 	color: #c9c9c9;
+ 						text-decoration: none;
+ }
+
+ a:hover { color: white; }
+
+iframe { display: block;
+		margin: 0 auto;
+
+}
+
+.updates {	display: flex;
+			flex-wrap: nowrap;
+			justify-content: center;
+			justify-content: space-around;
+}
+
+#about_obsidian {	width: 33%;
+
+}
+
+#vivenne {	width: 33%;
+			padding-left: 30px;
+			padding-right: 30px;
+}
+
+#recent_posts {	width: 33%;
+
+}
+
+#social {	display: flex;
+			align-items: baseline;
+			align-items: center;
+			justify-content: space-between;
+			height: 40px;
+			padding-left: 550px;
+			padding-right: 550px;
+}
+
+i.fab { 	display: inline-block;
+			color: white;
+			height: 30px;
+			width: 30px;
+		}
+
+p { color: #c9c9c9;
+	line-height: 40px; }
+
+h3 { color: white; }
+
+h4 { color: #c9c9c9;
+	margin-top: 30px;
+	margin-bottom: 10px; }
+
+h5 { color: #c9c9c9; }
+
+time {color: #636363; }
