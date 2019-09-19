@@ -9,7 +9,19 @@ body {	background-image:
 				margin: 0 auto;
 }
 
- a:link, a:visited { 	color: grey;
+a:link, a:visited { 	color: grey;
  						text-decoration: none;
-
  }
+
+h1 { color :white;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 8px;
+	margin-top: 0; }
+
+h2 { color: white;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 2px; }
