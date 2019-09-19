@@ -27,6 +27,7 @@ iframe { display: block;
 			flex-wrap: nowrap;
 			justify-content: center;
 			justify-content: space-around;
+			margin-bottom: 60px;
 }
 
 #about_obsidian {	width: 33%;
@@ -42,7 +43,8 @@ iframe { display: block;
 
 }
 
-#social {	display: flex;
+#social {	margin-top: 20px;
+			display: flex;
 			align-items: baseline;
 			align-items: center;
 			justify-content: space-between;
@@ -58,9 +60,11 @@ i.fab { 	display: inline-block;
 		}
 
 p { color: #c9c9c9;
-	line-height: 40px; }
+	line-height: 30px; }
 
-h3 { color: white; }
+h3 { color: white;
+	font-size: 15px;
+	letter-spacing: 1.5px; }
 
 h4 { color: #c9c9c9;
 	margin-top: 30px;
