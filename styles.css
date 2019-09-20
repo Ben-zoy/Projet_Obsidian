@@ -1,0 +1,54 @@
+
+
+
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+
+
+
+/*=========TABLO=============*/
+table {
+	position: relative;
+	left: 300px;
+
+}
+
+
+
+/*=========TABLO 1=========*/
+.tablo1 {
+	border: solid 2px green;
+	width: 1300px;
+	border-collapse: collapse;
+	border-top: 4px solid green;
+	border-bottom: 4px solid green;
+}
+
+
+th.AV {
+	text-align: left;
+	
+}
+
+td.lieux1 {
+	text-align: right;
+}
+
+
+/*=========TABLO 2===========*/
+
+.tablo2 {
+	margin-top: 150px;
+	border-collapse: collapse;
+	border-top: 4px solid blue;
+	border-bottom: 4px solid blue;
+}
+
+.tablo2 th, .tablo2 td {
+	border-bottom: 1px blue;
+}
