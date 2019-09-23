@@ -25,3 +25,290 @@ h2 { color: white;
 	font-size: 40px;
 	text-align: center;
 	letter-spacing: 2px; }
+
+
+
+
+	/********************** Tour Page **********************/
+
+.tab {
+
+	
+	overflow: hidden;
+		padding-left: 600px;
+		padding-right: 400px
+
+
+}
+
+.tab button {
+background-color: inherit;
+    border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+ 
+ 
+  
+}
+
+
+
+.tab button:hover {
+	
+background-color: #272424;
+
+}
+
+.tab button.active {
+
+ background-color: #272424;
+  
+}
+
+
+.tab button.tablinks1 {
+	
+	background-color: #272424;
+	 opacity: 0.8;
+	
+}
+ 
+ 
+
+.shorttext { 
+
+	color: gray;
+	color: #c9c9c9;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	width: 94%;	
+	margin: auto;
+
+	}
+
+table {
+	
+	width: 94%;	
+	margin: auto;
+	color: gray;
+	color: #c9c9c9;
+	margin-bottom: 60px;
+	
+}
+
+.month {
+
+	width: 4%;
+}
+
+td.day{
+	
+	font-weight: bold;
+		color: white;
+
+}
+
+.table {  
+
+	border-collapse: collapse;
+	width: 1500px;
+	height: auto;
+	
+}
+
+	
+th, td {
+
+	border-bottom: 0.8px solid #ddd;
+	padding-top: 25px;
+	padding-bottom: 25px; 
+
+}
+
+.city { 
+
+	table-layout: fixed;
+	width: 50%;
+	
+}
+
+td.month7 {
+
+text-overflow: top;
+padding-bottom: 100px;
+}
+
+td.day7 {
+
+	font-weight: bold;
+	color: white;
+	padding-bottom: 100px;
+	
+
+}
+
+td.city p { 
+	word-wrap: break-word;         
+    overflow-wrap: break-word;
+
+	
+}
+
+td.lieux7 {
+
+	padding-bottom: 100px;
+
+}
+
+/********************** Tour Page **********************/
+
+
+
+/********************** Records Page **********************/
+
+.imagerecords {
+
+	margin-bottom: 35px;
+	display: inline-block;
+}
+
+.tablinks { opacity: 0.8;
+	
+	
+}
+
+.tablinks p {
+
+	background-color: #272424;
+	
+	color: grey;
+	text-align-last: center;
+	width: 300px;
+	font-size: smaller;
+	padding-top: 5px;
+	padding-bottom:5px;
+	margin-top: -5px;
+
+}
+
+.releaseyear {
+
+	color: grey;
+		
+}
+
+
+
+.albuminformation {
+padding-left: 50px;
+padding-right: 30px;
+width: 1000px;
+text-align-last: left;
+}
+
+.information {
+
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+#vivienne img {
+
+	width: 380px;
+}	
+/********************** Records Page **********************/
+
+
+
+/********************** FOOTER **********************/
+
+iframe { display: block;
+		margin: 0 auto;
+
+}
+
+.updates {	display: flex;
+			flex-wrap: nowrap;
+			justify-content: center;
+			justify-content: space-around;
+			margin-bottom: 60px;
+}
+
+#about_obsidian {	width: 33%;
+
+}
+
+#vivenne {	width: 33%;
+			padding-left: 30px;
+			padding-right: 30px;
+}
+
+#recent_posts {	width: 33%;
+
+}
+
+#social {	margin-top: 20px;
+			display: flex;
+			align-items: baseline;
+			align-items: center;
+			justify-content: space-between;
+			height: 40px;
+			padding-left: 550px;
+			padding-right: 550px;
+}
+
+i.fab { 	display: inline-block;
+			color: white;
+			height: 30px;
+			width: 30px;
+		}
+
+p { color: #c9c9c9;
+	line-height: 30px; }
+
+h3 { color: white;
+	font-size: 15px;
+	letter-spacing: 1.5px; }
+
+h4 { color: #c9c9c9;
+	margin-top: 30px;
+	margin-bottom: 10px; }
+
+h5 { color: #c9c9c9; }
+
+time {color: #636363; }
+
+/********************** FOOTER **********************/
+
+
+
+/********************** Bio Page **********************/
+
+.photosbio img {
+
+width: 50%;
+padding-left: 30%;
+padding-right: 30%;
+margin-top: 20px;
+margin-left: -80px;
+margin-right: auto;
+align-content: center;
+background-color: rgba(192,192,192,0.3);
+
+}
+
+
+.maintextbio {
+
+	color: grey;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-bottom: 30px;
+
+}
+/********************** Bio Page **********************/
