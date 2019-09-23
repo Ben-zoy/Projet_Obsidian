@@ -12,14 +12,16 @@ nav ul { 	display: flex;
 			padding-left: 20%;
  }
 
- nav ul li { letter-spacing: 2px; }
+ nav ul li { 	display: inline;
+ 				letter-spacing: 2px;
+ 				text-align: center; }
 
  a:link, a:visited { 	color: #c9c9c9;
  						text-decoration: none;
  }
 
  a:hover { color: white;
- 			font-weight: bold; }
+ 			-webkit-text-stroke: 1px white; } /*Effet bold sur le hover*/
 
 iframe { display: block;
 		margin: 0 auto;
