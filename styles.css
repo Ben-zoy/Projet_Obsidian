@@ -25,3 +25,166 @@ h2 { color: white;
 	font-size: 40px;
 	text-align: center;
 	letter-spacing: 2px; }
+
+
+                /* CSS */
+#videotable { 
+            padding-top: 60px;
+            margin:auto; }th[scope="voyant"] { font-weight: bold;
+            color: white;
+            text-align: left; }th[scope="discret"] { font-weight: 400;
+            color: grey;
+            text-align: right; }td.vide { width: 40px; }
+#Rose { 
+        background-image: url(./images/video-like-a-rose-530x300.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px 283px;
+        height: 320px;
+        width: 500px;
+        font-weight: bold;
+         color: white;
+         padding-bottom: 60px;}
+#Love {    
+        background-image: url(./images/video-big-love-550-530x300.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px 283px;
+        height: 320px;
+        width: 500px;
+        font-weight: bold;
+         color: white;
+         padding-bottom: 60px
+}#June {   
+        background-image: url(./images/video-waitin-on-june-530x300.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px 283px;
+        height: 320px;
+        width: 500px;
+        font-weight: bold;
+         color: white;
+         padding-bottom: 60px
+}
+
+
+/*=========IN UPCOMING GIGS=========*/
+#UPC {
+    border-collapse: collapse;
+    padding-top: 60px;
+    width: 100%;
+    color: white;
+}
+
+.upcoming {
+    font-stretch: 500%; 
+
+}
+
+th, td {    
+    border-bottom: 0.8px solid #ddd;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mois {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jour {
+    font-size: 15px;
+    text-align: left;
+}
+
+.ville {
+    font-weight: bold;
+}
+
+/*=====OUT UPCOMINGS GIGD=====*/
+
+
+
+/*=====NEWS=====*/
+
+#newstext {
+    width: 700px;
+    height: 800px;
+    float: left;
+    color: white;
+    font-size: 18px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    overflow: auto;
+    
+}
+
+#newstext h3 {
+    font-size: 12px
+}
+
+
+#lastestnews h1,h2 {
+    font-size: 18px;
+    text-align: left;
+
+
+}
+
+
+#lastestnews {
+    margin-top: 100px;
+    margin-left: 250px;
+    float: right;
+    color: white;
+    font-size: 18px;
+    padding: 0, 20px, 0, 20px;
+    width: 20%;
+    height: 100%;
+    font-stretch: extra-expanded;
+    padding-bottom: 200px;
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-right: 30px;
+
+}
+
+#larecherche {
+    float: right;
+    margin-right: 200px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:transparent;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 76px;
+    text-decoration:none;
+
+}
+
+
+        
+
+
+
+
+
+/*=====PAGE CONTACT=====*/
+
+.formulaire{
+    border:solid 2px green;
+    padding-right: 250px;
+    margin-right: 200px;
+    
+
+}
+
+
+
