@@ -22,18 +22,18 @@
 		<!--DEBUT FORMULAIRE-->
 		<section class="formulaire">
 		<form action="http://www.exemple.fr/login.php">
-			<p>Name (required)
-				<br><input type="text" name="username" size="30" maxlength="30" />
-			</p>
-			<p>Email (required)
-				<br><input type="text" name="Email" size="30" maxlength="30" />			
-			</p>
-			<p>Website
-				<br><input type="text" name="Website" size="30" maxlength="30">
-			</p>
-			<p>Comments (required)
-				<br><textarea name="comments" cols="30" rows="3">
-					Enter your comment...</textarea>
+			<label for="Name" color=white>Name</label><label for="required"> (required)</label>
+				<br><input type="text" name="username" size="40" maxlength="40" />
+				<br>
+			<label for="Mail">Email</label><label for="required"> (required)</label>
+				<br><input type="email" name="Email" size="40" maxlength="40" />
+				<br>			
+			<label for="Website">Website</label>
+				<br><input type="text" name="Website" size="40" maxlength="40">
+				<br>
+			<label for="Comments">Comments</label><label for="required"> (required)</label>
+				<br><textarea name="comments" cols="80" rows="3">
+					</textarea>
 			</p>
 			<input type="submit" name="submit">	
 		</form>
